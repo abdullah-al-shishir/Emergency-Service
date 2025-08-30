@@ -25,7 +25,7 @@
     <header class="">
       <nav class="">
         <div class="grid grid-cols-2 border">
-          <div class="flex ml-5 mt-3 mb-3 md:ml-10 md:p-4 md:mt-0">
+          <div class="flex ml-5 mt-3 mb-3 md:ml-10 md:p-4 md:mt-5 lg:mt-1">
             <img class="h-8 mt-1 md:h-14" src="assets/logo.png" alt="" srcset="" />
             <span class="anton-regular pl-1 text-sm text-green-700 md:text-2xl md:ml-1"
               >Emergency <br />
@@ -33,19 +33,20 @@
             >
           </div>
           <div class="flex justify-end md:mr-10">
-            <div class="flex pl-5 pr-5 md:p-6 md:mr-4 bg-cyan-50 rounded-4xl">
-              <button id="heart-count" class="pr-1 md:pr-1.5 md:pt-1.5 md:text-2xl">0</button>
-              <img class="h-4 mt-6 md:h-8 md:mt-4.5" src="assets/heart.png" alt="" srcset="" />
+            <div class="flex h-8 mt-4 md:h-10 md:mt-7 pl-5 pr-5 md:p-6 md:mr-4 bg-cyan-50 rounded-4xl">
+              <button id="heart-count" class="pr-1 md:pr-1.5 md:text-2xl">0</button>
+              <img class="h-4 mt-2 md:h-8 md:mt-0" src="assets/heart.png" alt="" srcset="" />
             </div>
-            <div class="flex pl-5 pr-5 md:p-6 md:mr-4 bg-cyan-50 rounded-4xl">
-              <button id="token" class="pr-1 md:pr-1.5 md:pt-1.5 md:text-2xl">100</button>
-              <img class="h-4 mt-6 md:h-8 md:mt-4" src="assets/coin.png" alt="" srcset="" />
+            <div class="flex h-8 mt-4 md:h-10 md:mt-7 pl-5 pr-5 md:p-6 md:mr-4 bg-cyan-50 rounded-4xl">
+              <button id="token" class="pr-1 md:pr-1.5 md:text-2xl">100</button>
+              <img class="h-4 mt-2 md:h-8 md:mt-0" src="assets/coin.png" alt="" srcset="" />
             </div>
-            <div class=" mr-4 mt-3 md:p-6 md:mt-1 ">
+            <div class=" mr-6 mt-3 md:p-6 md:mt-1 ">
               <button id="copy-count"
-                class="bg-green-500 rounded-2xl pl-2 pr-2 pb-1  mt-2 md:rounded-3xl md:pl-4 md:pr-4 md:pt-2 md:pb-2 text-white">
+                class="bg-green-500 rounded-2xl text-sm pl-2 pr-2 pb-1 sm:ml-2 md:ml-3 md:text-xl md:mt-2 md:rounded-3xl md:pl-3 md:pr-3 md:pt-2 md:pb-2 text-white">
                 0 Copy
               </button>
+              
             </div>
           </div>
         </div>
@@ -70,7 +71,7 @@
       <!-- All cards are created here -->
       <section class="w-11/12 m-auto justify-center">
         <div
-          class="container mt-5 mb-5 gap-4 place-items-center grid grid-cols-1 md:grid-cols-4"
+          class="container mt-5 mb-5 gap-4 place-items-center grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4"
         >
         
           <!-- card one -->
@@ -86,8 +87,8 @@
             </div>
             <button class="new-color p-2 mt-2 rounded-2xl text-sm">সার্বজনীন</button>
             <div class="flex justify-center mt-4">
-              <button class="copy-btn mr-14 pl-5 pr-5 p-1 border rounded-md hover:cursor-pointer hover:bg-gray-100 active:bg-gray-300"><i class=" fa-solid fa-copy mr-2"></i>Copy</button>
-              <button  class="call-btn pl-5 pr-6 p-1 border rounded-md hover:cursor-pointer bg-green-600 text-white  hover:bg-green-700 active:bg-green-800"><i class="fa-solid fa-phone-volume mr-2"></i>Call</button>
+              <button class="copy-btn w-full mr-2  pl-5 pr-5 p-1 border border-red-100 rounded-md hover:cursor-pointer hover:bg-gray-100 active:bg-gray-300"><i class=" fa-solid fa-copy mr-2"></i>Copy</button>
+              <button  class="call-btn w-full pl-5 pr-6 p-1 border rounded-md hover:cursor-pointer bg-green-600 text-white  hover:bg-green-700 active:bg-green-800"><i class="fa-solid fa-phone-volume mr-2"></i>Call</button>
             </div>
           </div>
           <!-- card Two -->
@@ -104,8 +105,8 @@
             </div>
             <button class="new-color p-2 mt-2 rounded-2xl text-sm">পুলিশ</button>
             <div class="flex justify-center mt-4">
-              <button class="copy-btn mr-14 pl-5 pr-5 p-1 border rounded-md hover:cursor-pointer hover:bg-gray-100 active:bg-gray-300"><i class=" fa-solid fa-copy mr-2"></i>Copy</button>
-              <button  class="call-btn pl-5 pr-6 p-1 border rounded-md hover:cursor-pointer bg-green-600 text-white  hover:bg-green-700 active:bg-green-800"><i class="fa-solid fa-phone-volume mr-2"></i>Call</button>
+              <button class="copy-btn w-full mr-2  pl-5 pr-5 p-1 border border-red-100 rounded-md hover:cursor-pointer hover:bg-gray-100 active:bg-gray-300"><i class=" fa-solid fa-copy mr-2"></i>Copy</button>
+              <button  class="call-btn w-full pl-5 pr-6 p-1 border rounded-md hover:cursor-pointer bg-green-600 text-white  hover:bg-green-700 active:bg-green-800"><i class="fa-solid fa-phone-volume mr-2"></i>Call</button>
             </div>
           </div>
           <!-- card three -->
@@ -122,12 +123,120 @@
             </div>
             <button class="new-color p-2 mt-2 rounded-2xl text-sm">ফায়ার</button>
             <div class="flex justify-center mt-4">
-              <button class="copy-btn mr-14 pl-5 pr-5 p-1 border rounded-md hover:cursor-pointer hover:bg-gray-100 active:bg-gray-300"><i class=" fa-solid fa-copy mr-2"></i>Copy</button>
-              <button  class="call-btn pl-5 pr-6 p-1 border rounded-md hover:cursor-pointer bg-green-600 text-white  hover:bg-green-700 active:bg-green-800"><i class="fa-solid fa-phone-volume mr-2"></i>Call</button>
+              <button class="copy-btn w-full mr-2  pl-5 pr-5 p-1 border border-red-100 rounded-md hover:cursor-pointer hover:bg-gray-100 active:bg-gray-300"><i class=" fa-solid fa-copy mr-2"></i>Copy</button>
+              <button  class="call-btn w-full pl-5 pr-6 p-1 border rounded-md hover:cursor-pointer bg-green-600 text-white  hover:bg-green-700 active:bg-green-800"><i class="fa-solid fa-phone-volume mr-2"></i>Call</button>
+            </div>
+          </div>
+          
+          <!-- card five  -->
+          <div class="card newCard w-full bg-white p-7 rounded-2xl shadow-md">
+            <div class="flex justify-between">
+              <img class="h-6" src="assets/ambulance.png" alt="" srcset="" />
+              <button class="heart-btn-id"><i class="fa-regular fa-heart text-2xl hover:cursor-pointer transition-transform duration-300 hover:scale-120"></i></button>
+            </div>
+            <div class="grid">
+              <span class="call-history mt-3 font-bold">এ্যাম্বুলেন্স </span>
+              <span class="call-allert">Ambulance</span>
+              <span class="contact hotline font-bold text-xl mt-2">1943-999999</span> 
+            </div>
+            <button class="new-color p-2 mt-2 rounded-2xl text-sm">স্বাস্থ্য</button>
+            <div class="flex justify-center mt-4">
+              <button class="copy-btn w-full mr-2  pl-5 pr-5 p-1 border border-red-100 rounded-md hover:cursor-pointer hover:bg-gray-100 active:bg-gray-300"><i class=" fa-solid fa-copy mr-2"></i>Copy</button>
+              <button  class="call-btn w-full pl-5 pr-6 p-1 border rounded-md hover:cursor-pointer bg-green-600 text-white  hover:bg-green-700 active:bg-green-800"><i class="fa-solid fa-phone-volume mr-2"></i>Call</button>
+            </div>
+          </div>
+          <!-- card six  -->
+         <div class="card newCard w-full bg-white p-7 rounded-2xl shadow-md">
+            <div class="flex justify-between">
+              <img class="h-6" src="assets/emergency.png" alt="" srcset="" />
+              <button class="heart-btn-id"><i class="fa-regular fa-heart text-2xl hover:cursor-pointer transition-transform duration-300 hover:scale-120"></i></button>
+            </div>
+            <div class="grid">
+              <span class="call-history mt-3 font-bold">নারী ও শিশু সহায়তা </span>
+              <span class="call-allert">Women and Child Support</span>
+              <span class="contact hotline font-bold text-xl mt-2">109</span> 
+            </div>
+            <button class="new-color p-2 mt-2 rounded-2xl text-sm">সহায়তা</button>
+            <div class="flex justify-center mt-4">
+              <button class="copy-btn w-full mr-2  pl-5 pr-5 p-1 border border-red-100 rounded-md hover:cursor-pointer hover:bg-gray-100 active:bg-gray-300"><i class=" fa-solid fa-copy mr-2"></i>Copy</button>
+              <button  class="call-btn w-full pl-5 pr-6 p-1 border rounded-md hover:cursor-pointer bg-green-600 text-white  hover:bg-green-700 active:bg-green-800"><i class="fa-solid fa-phone-volume mr-2"></i>Call</button>
+            </div>
+          </div>
+          <!-- card seven  -->
+          <div class="card newCard w-full bg-white p-7 rounded-2xl shadow-md">
+            <div class="flex justify-between">
+              <img class="h-6" src="assets/emergency.png" alt="" srcset="" />
+              <button class="heart-btn-id"><i class="fa-regular fa-heart text-2xl hover:cursor-pointer transition-transform duration-300 hover:scale-120"></i></button>
+              
+            </div>
+            <div class="grid">
+              <span class="call-history mt-3 font-bold">দুদক </span>
+              <span class="call-allert">Anti-corruption</span>
+              <span class="contact hotline font-bold text-xl mt-2">106</span> 
+            </div>
+            <button class="new-color p-2 mt-2 rounded-2xl text-sm">সরকারী</button>
+            <div class="flex justify-center mt-4">
+              <button class="copy-btn w-full mr-2  pl-5 pr-5 p-1 border border-red-100 rounded-md hover:cursor-pointer hover:bg-gray-100 active:bg-gray-300"><i class=" fa-solid fa-copy mr-2"></i>Copy</button>
+              <button  class="call-btn w-full pl-5 pr-6 p-1 border rounded-md hover:cursor-pointer bg-green-600 text-white  hover:bg-green-700 active:bg-green-800"><i class="fa-solid fa-phone-volume mr-2"></i>Call</button>
+            </div>
+          </div>
+          
+          <!-- card eight  -->
+          <div class="card newCard w-full bg-white p-7 rounded-2xl shadow-md">
+            <div class="flex justify-between">
+              <img class="h-6" src="assets/emergency.png" alt="" srcset="" />
+              <button class="heart-btn-id"><i class="fa-regular fa-heart text-2xl hover:cursor-pointer transition-transform duration-300 hover:scale-120"></i></button>
+            </div>
+            <div class="grid">
+              <span class="call-history mt-3 font-bold">বিদ্যুৎ বিভ্রাট </span>
+              <span class="call-allert">Electricity Outage</span>
+              <span class="contact hotline font-bold text-xl mt-2">16216</span> 
+            </div>
+            <button class="new-color p-2 mt-2 rounded-2xl text-sm">বিদ্যুৎ</button>
+            <div class="flex justify-center mt-4">
+              <button class="copy-btn w-full mr-2  pl-5 pr-5 p-1 border border-red-100 rounded-md hover:cursor-pointer hover:bg-gray-100 active:bg-gray-300"><i class=" fa-solid fa-copy mr-2"></i>Copy</button>
+              <button  class="call-btn w-full pl-5 pr-6 p-1 border rounded-md hover:cursor-pointer bg-green-600 text-white  hover:bg-green-700 active:bg-green-800"><i class="fa-solid fa-phone-volume mr-2"></i>Call</button>
+            </div>
+          </div>
+          
+          <!-- card nine  -->
+          <div class="card newCard w-full bg-white p-7 rounded-2xl shadow-md">
+            <div class="flex justify-between">
+              <img class="h-6" src="assets/brac.png" alt="" srcset="" />
+              <button class="heart-btn-id"><i class="fa-regular fa-heart text-2xl hover:cursor-pointer transition-transform duration-300 hover:scale-120"></i></button>
+              
+            </div>
+            <div class="grid">
+              <span class="call-history mt-3 font-bold"> ব্র্যাক</span>
+              <span class="call-allert">Brac</span>
+              <span class="contact hotline font-bold text-xl mt-2">16445</span> 
+            </div>
+            <button class="new-color p-2 mt-2 rounded-2xl text-sm">এনজিও</button>
+           <div class="flex justify-center mt-4">
+              <button class="copy-btn w-full mr-2  pl-5 pr-5 p-1 border border-red-100 rounded-md hover:cursor-pointer hover:bg-gray-100 active:bg-gray-300"><i class=" fa-solid fa-copy mr-2"></i>Copy</button>
+              <button  class="call-btn w-full pl-5 pr-6 p-1 border rounded-md hover:cursor-pointer bg-green-600 text-white  hover:bg-green-700 active:bg-green-800"><i class="fa-solid fa-phone-volume mr-2"></i>Call</button>
+            </div>
+          </div>
+          <!-- card ten  -->
+          <div class="card newCard w-full bg-white p-7 rounded-2xl shadow-md">
+            <div class="flex justify-between">
+              <img class="h-6" src="assets/Bangladesh-Railway.png" alt="" srcset="" />
+              <button class="heart-btn-id"><i class="fa-regular fa-heart text-2xl hover:cursor-pointer transition-transform duration-300 hover:scale-120"></i></button>
+              
+            </div>
+            <div class="grid">
+              <span class="call-history mt-3 font-bold">বাংলাদেশ রেলওয়ে </span>
+              <span class="call-allert">Bangladesh Railway</span>
+              <span class="contact hotline font-bold text-xl mt-2">163</span> 
+            </div>
+            <button class="new-color p-2 mt-2 rounded-2xl text-sm">পরিবহন</button>
+           <div class="flex justify-center mt-4">
+              <button class="copy-btn w-full mr-2  pl-5 pr-5 p-1 border border-red-100 rounded-md hover:cursor-pointer hover:bg-gray-100 active:bg-gray-300"><i class=" fa-solid fa-copy mr-2"></i>Copy</button>
+              <button  class="call-btn w-full pl-5 pr-6 p-1 border rounded-md hover:cursor-pointer bg-green-600 text-white  hover:bg-green-700 active:bg-green-800"><i class="fa-solid fa-phone-volume mr-2"></i>Call</button>
             </div>
           </div>
           <!-- card four -->
-          <div class="card h-full w-full bg-white row-span-3 rounded-2xl shadow-md">
+          <div class="card h-full w-full bg-white md:col-span-3 md:row-span-1 rounded-2xl shadow-md">
             <div class="flex justify-between">
                 <div class="m-3">
             <i class="fa-solid fa-clock"></i>
@@ -145,118 +254,8 @@
             <div id="call-history-container" class=" p-3"> 
                          
             </div>
-            <!-- History will be added dynamically above -->
+  
           </div>
-          <!-- card five  -->
-          <div class="card newCard w-full bg-white p-7 rounded-2xl shadow-md">
-            <div class="flex justify-between">
-              <img class="h-6" src="assets/ambulance.png" alt="" srcset="" />
-              <button class="heart-btn-id"><i class="fa-regular fa-heart text-2xl hover:cursor-pointer transition-transform duration-300 hover:scale-120"></i></button>
-            </div>
-            <div class="grid">
-              <span class="call-history mt-3 font-bold">এ্যাম্বুলেন্স </span>
-              <span class="call-allert">Ambulance</span>
-              <span class="contact hotline font-bold text-xl mt-2">1943-999999</span> 
-            </div>
-            <button class="new-color p-2 mt-2 rounded-2xl text-sm">স্বাস্থ্য</button>
-            <div class="flex justify-center mt-4">
-              <button class="copy-btn mr-14 pl-5 pr-5 p-1 border rounded-md hover:cursor-pointer hover:bg-gray-100 active:bg-gray-300"><i class=" fa-solid fa-copy mr-2"></i>Copy</button>
-              <button  class="call-btn pl-5 pr-6 p-1 border rounded-md hover:cursor-pointer bg-green-600 text-white  hover:bg-green-700 active:bg-green-800"><i class="fa-solid fa-phone-volume mr-2"></i>Call</button>
-            </div>
-          </div>
-          <!-- card six  -->
-         <div class="card newCard w-full bg-white p-7 rounded-2xl shadow-md">
-            <div class="flex justify-between">
-              <img class="h-6" src="assets/emergency.png" alt="" srcset="" />
-              <button class="heart-btn-id"><i class="fa-regular fa-heart text-2xl hover:cursor-pointer transition-transform duration-300 hover:scale-120"></i></button>
-            </div>
-            <div class="grid">
-              <span class="call-history mt-3 font-bold">নারী ও শিশু সহায়তা </span>
-              <span class="call-allert">Women and Child Support</span>
-              <span class="contact hotline font-bold text-xl mt-2">109</span> 
-            </div>
-            <button class="new-color p-2 mt-2 rounded-2xl text-sm">সহায়তা</button>
-            <div class="flex justify-center mt-4">
-              <button class="copy-btn mr-14 pl-5 pr-5 p-1 border rounded-md hover:cursor-pointer hover:bg-gray-100 active:bg-gray-300"><i class=" fa-solid fa-copy mr-2"></i>Copy</button>
-              <button  class="call-btn pl-5 pr-6 p-1 border rounded-md hover:cursor-pointer bg-green-600 text-white  hover:bg-green-700 active:bg-green-800"><i class="fa-solid fa-phone-volume mr-2"></i>Call</button>
-            </div>
-          </div>
-          <!-- card seven  -->
-          <div class="card newCard w-full bg-white p-7 rounded-2xl shadow-md">
-            <div class="flex justify-between">
-              <img class="h-6" src="assets/emergency.png" alt="" srcset="" />
-              <button class="heart-btn-id"><i class="fa-regular fa-heart text-2xl hover:cursor-pointer transition-transform duration-300 hover:scale-120"></i></button>
-              
-            </div>
-            <div class="grid">
-              <span class="call-history mt-3 font-bold">দুদক </span>
-              <span class="call-allert">Anti-corruption</span>
-              <span class="contact hotline font-bold text-xl mt-2">106</span> 
-            </div>
-            <button class="new-color p-2 mt-2 rounded-2xl text-sm">সরকারী</button>
-            <div class="flex justify-center mt-4">
-              <button class="copy-btn mr-14 pl-5 pr-5 p-1 border rounded-md hover:cursor-pointer hover:bg-gray-100 active:bg-gray-300"><i class=" fa-solid fa-copy mr-2"></i>Copy</button>
-              <button  class="call-btn pl-5 pr-6 p-1 border rounded-md hover:cursor-pointer bg-green-600 text-white  hover:bg-green-700 active:bg-green-800"><i class="fa-solid fa-phone-volume mr-2"></i>Call</button>
-            </div>
-          </div>
-          
-          <!-- card eight  -->
-          <div class="card newCard w-full bg-white p-7 rounded-2xl shadow-md">
-            <div class="flex justify-between">
-              <img class="h-6" src="assets/emergency.png" alt="" srcset="" />
-              <button class="heart-btn-id"><i class="fa-regular fa-heart text-2xl hover:cursor-pointer transition-transform duration-300 hover:scale-120"></i></button>
-            </div>
-            <div class="grid">
-              <span class="call-history mt-3 font-bold">বিদ্যুৎ বিভ্রাট </span>
-              <span class="call-allert">Electricity Outage</span>
-              <span class="contact hotline font-bold text-xl mt-2">16216</span> 
-            </div>
-            <button class="new-color p-2 mt-2 rounded-2xl text-sm">বিদ্যুৎ</button>
-            <div class="flex justify-center mt-4">
-              <button class="copy-btn mr-14 pl-5 pr-5 p-1 border rounded-md hover:cursor-pointer hover:bg-gray-100 active:bg-gray-300"><i class=" fa-solid fa-copy mr-2"></i>Copy</button>
-              <button  class="call-btn pl-5 pr-6 p-1 border rounded-md hover:cursor-pointer bg-green-600 text-white  hover:bg-green-700 active:bg-green-800"><i class="fa-solid fa-phone-volume mr-2"></i>Call</button>
-            </div>
-          </div>
-          
-          <!-- card nine  -->
-          <div class="card newCard w-full bg-white p-7 rounded-2xl shadow-md">
-            <div class="flex justify-between">
-              <img class="h-6" src="assets/brac.png" alt="" srcset="" />
-              <button class="heart-btn-id"><i class="fa-regular fa-heart text-2xl hover:cursor-pointer transition-transform duration-300 hover:scale-120"></i></button>
-              
-            </div>
-            <div class="grid">
-              <span class="call-history mt-3 font-bold"> ব্র্যাক</span>
-              <span class="call-allert">Brac</span>
-              <span class="contact hotline font-bold text-xl mt-2">16445</span> 
-            </div>
-            <button class="new-color p-2 mt-2 rounded-2xl text-sm">এনজিও</button>
-            <div class="flex justify-center mt-4">
-              <button class="copy-btn mr-14 pl-5 pr-5 p-1 border rounded-md hover:cursor-pointer hover:bg-gray-100 active:bg-gray-300"><i class=" fa-solid fa-copy mr-2"></i>Copy</button>
-              <button  class="call-btn pl-5 pr-6 p-1 border rounded-md hover:cursor-pointer bg-green-600 text-white  hover:bg-green-700 active:bg-green-800"><i class="fa-solid fa-phone-volume mr-2"></i>Call</button>
-            </div>
-          </div>
-          <!-- card ten  -->
-          <div class="card newCard w-full bg-white p-7 rounded-2xl shadow-md">
-            <div class="flex justify-between">
-              <img class="h-6" src="assets/Bangladesh-Railway.png" alt="" srcset="" />
-              <button class="heart-btn-id"><i class="fa-regular fa-heart text-2xl hover:cursor-pointer transition-transform duration-300 hover:scale-120"></i></button>
-              
-            </div>
-            <div class="grid">
-              <span class="call-history mt-3 font-bold">বাংলাদেশ রেলওয়ে </span>
-              <span class="call-allert">Bangladesh Railway</span>
-              <span class="contact hotline font-bold text-xl mt-2">163</span> 
-            </div>
-            <button class="new-color p-2 mt-2 rounded-2xl text-sm">পরিবহন</button>
-            <div class="flex justify-center mt-4">
-              <button class="copy-btn mr-14 pl-5 pr-5 p-1 border rounded-md hover:cursor-pointer hover:bg-gray-100 active:bg-gray-300"><i class=" fa-solid fa-copy mr-2"></i>Copy</button>
-              <button  class="call-btn pl-5 pr-6 p-1 border rounded-md hover:cursor-pointer bg-green-600 text-white  hover:bg-green-700 active:bg-green-800"><i class="fa-solid fa-phone-volume mr-2"></i>Call</button>
-            </div>
-          </div>
-          
-          
-          
         </div>
       </section>
      
